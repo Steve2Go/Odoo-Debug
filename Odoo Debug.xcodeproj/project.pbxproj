@@ -1,0 +1,1011 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E7BDC19E2D432BA900760DF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BDC19D2D432BA900760DF8 /* AppDelegate.swift */; };
+		E7BDC1A02D432BA900760DF8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BDC19F2D432BA900760DF8 /* SceneDelegate.swift */; };
+		E7BDC1A32D432BA900760DF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7BDC1A12D432BA900760DF8 /* LaunchScreen.storyboard */; };
+		E7BDC1A62D432BA900760DF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7BDC1A42D432BA900760DF8 /* Main.storyboard */; };
+		E7BDC1AF2D432BA900760DF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BDC1AE2D432BA900760DF8 /* AppDelegate.swift */; };
+		E7BDC1B22D432BA900760DF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7BDC1B02D432BA900760DF8 /* Main.storyboard */; };
+		E7BDC1BA2D432BA900760DF8 /* Odoo Debug Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E7BDC1B92D432BA900760DF8 /* Odoo Debug Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E7BDC1C42D432BA900760DF8 /* Odoo Debug Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = E7BDC1C32D432BA900760DF8 /* Odoo Debug Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E7BDC1CA2D432BA900760DF8 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = E7BDC18D2D432BA800760DF8 /* Main.html */; };
+		E7BDC1CB2D432BA900760DF8 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = E7BDC18D2D432BA800760DF8 /* Main.html */; };
+		E7BDC1CC2D432BA900760DF8 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E7BDC18F2D432BA800760DF8 /* Icon.png */; };
+		E7BDC1CD2D432BA900760DF8 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E7BDC18F2D432BA800760DF8 /* Icon.png */; };
+		E7BDC1CE2D432BA900760DF8 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = E7BDC1902D432BA800760DF8 /* Style.css */; };
+		E7BDC1CF2D432BA900760DF8 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = E7BDC1902D432BA800760DF8 /* Style.css */; };
+		E7BDC1D02D432BA900760DF8 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = E7BDC1912D432BA800760DF8 /* Script.js */; };
+		E7BDC1D12D432BA900760DF8 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = E7BDC1912D432BA800760DF8 /* Script.js */; };
+		E7BDC1D22D432BA900760DF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BDC1922D432BA800760DF8 /* ViewController.swift */; };
+		E7BDC1D32D432BA900760DF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BDC1922D432BA800760DF8 /* ViewController.swift */; };
+		E7BDC1D42D432BA900760DF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7BDC1932D432BA900760DF8 /* Assets.xcassets */; };
+		E7BDC1D52D432BA900760DF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7BDC1932D432BA900760DF8 /* Assets.xcassets */; };
+		E7BDC1D62D432BA900760DF8 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BDC1952D432BA900760DF8 /* SafariWebExtensionHandler.swift */; };
+		E7BDC1D72D432BA900760DF8 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BDC1952D432BA900760DF8 /* SafariWebExtensionHandler.swift */; };
+		E7BDC1F52D432BA900760DF8 /* cover_large.png in Resources */ = {isa = PBXBuildFile; fileRef = E7BDC1E92D432BA900760DF8 /* cover_large.png */; };
+		E7BDC1F62D432BA900760DF8 /* on.png in Resources */ = {isa = PBXBuildFile; fileRef = E7BDC1EA2D432BA900760DF8 /* on.png */; };
+		E7BDC1F72D432BA900760DF8 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = E7BDC1EB2D432BA900760DF8 /* LICENSE */; };
+		E7BDC1F82D432BA900760DF8 /* off.png in Resources */ = {isa = PBXBuildFile; fileRef = E7BDC1EC2D432BA900760DF8 /* off.png */; };
+		E7BDC1F92D432BA900760DF8 /* cover_small.png in Resources */ = {isa = PBXBuildFile; fileRef = E7BDC1ED2D432BA900760DF8 /* cover_small.png */; };
+		E7BDC1FA2D432BA900760DF8 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = E7BDC1EE2D432BA900760DF8 /* background.js */; };
+		E7BDC1FB2D432BA900760DF8 /* META-INF in Resources */ = {isa = PBXBuildFile; fileRef = E7BDC1EF2D432BA900760DF8 /* META-INF */; };
+		E7BDC1FC2D432BA900760DF8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E7BDC1F02D432BA900760DF8 /* README.md */; };
+		E7BDC1FD2D432BA900760DF8 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = E7BDC1F12D432BA900760DF8 /* manifest.json */; };
+		E7BDC1FE2D432BA900760DF8 /* pageScript.js in Resources */ = {isa = PBXBuildFile; fileRef = E7BDC1F22D432BA900760DF8 /* pageScript.js */; };
+		E7BDC1FF2D432BA900760DF8 /* super_on.png in Resources */ = {isa = PBXBuildFile; fileRef = E7BDC1F32D432BA900760DF8 /* super_on.png */; };
+		E7BDC2002D432BA900760DF8 /* contentScript.js in Resources */ = {isa = PBXBuildFile; fileRef = E7BDC1F42D432BA900760DF8 /* contentScript.js */; };
+		E7BDC2012D432BA900760DF8 /* cover_large.png in Resources */ = {isa = PBXBuildFile; fileRef = E7BDC1E92D432BA900760DF8 /* cover_large.png */; };
+		E7BDC2022D432BA900760DF8 /* on.png in Resources */ = {isa = PBXBuildFile; fileRef = E7BDC1EA2D432BA900760DF8 /* on.png */; };
+		E7BDC2032D432BA900760DF8 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = E7BDC1EB2D432BA900760DF8 /* LICENSE */; };
+		E7BDC2042D432BA900760DF8 /* off.png in Resources */ = {isa = PBXBuildFile; fileRef = E7BDC1EC2D432BA900760DF8 /* off.png */; };
+		E7BDC2052D432BA900760DF8 /* cover_small.png in Resources */ = {isa = PBXBuildFile; fileRef = E7BDC1ED2D432BA900760DF8 /* cover_small.png */; };
+		E7BDC2062D432BA900760DF8 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = E7BDC1EE2D432BA900760DF8 /* background.js */; };
+		E7BDC2072D432BA900760DF8 /* META-INF in Resources */ = {isa = PBXBuildFile; fileRef = E7BDC1EF2D432BA900760DF8 /* META-INF */; };
+		E7BDC2082D432BA900760DF8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E7BDC1F02D432BA900760DF8 /* README.md */; };
+		E7BDC2092D432BA900760DF8 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = E7BDC1F12D432BA900760DF8 /* manifest.json */; };
+		E7BDC20A2D432BA900760DF8 /* pageScript.js in Resources */ = {isa = PBXBuildFile; fileRef = E7BDC1F22D432BA900760DF8 /* pageScript.js */; };
+		E7BDC20B2D432BA900760DF8 /* super_on.png in Resources */ = {isa = PBXBuildFile; fileRef = E7BDC1F32D432BA900760DF8 /* super_on.png */; };
+		E7BDC20C2D432BA900760DF8 /* contentScript.js in Resources */ = {isa = PBXBuildFile; fileRef = E7BDC1F42D432BA900760DF8 /* contentScript.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E7BDC1BB2D432BA900760DF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7BDC1872D432BA800760DF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7BDC1B82D432BA900760DF8;
+			remoteInfo = "Odoo Debug Extension (iOS)";
+		};
+		E7BDC1C52D432BA900760DF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7BDC1872D432BA800760DF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7BDC1C22D432BA900760DF8;
+			remoteInfo = "Odoo Debug Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E7BDC1DD2D432BA900760DF8 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E7BDC1BA2D432BA900760DF8 /* Odoo Debug Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7BDC1E42D432BA900760DF8 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E7BDC1C42D432BA900760DF8 /* Odoo Debug Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E7BDC18E2D432BA800760DF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
+		E7BDC18F2D432BA800760DF8 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		E7BDC1902D432BA800760DF8 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		E7BDC1912D432BA800760DF8 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		E7BDC1922D432BA800760DF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E7BDC1932D432BA900760DF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7BDC1952D432BA900760DF8 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		E7BDC19A2D432BA900760DF8 /* Odoo Debug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Odoo Debug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7BDC19D2D432BA900760DF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E7BDC19F2D432BA900760DF8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E7BDC1A22D432BA900760DF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E7BDC1A52D432BA900760DF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E7BDC1A72D432BA900760DF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7BDC1AC2D432BA900760DF8 /* Odoo Debug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Odoo Debug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7BDC1AE2D432BA900760DF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E7BDC1B12D432BA900760DF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E7BDC1B32D432BA900760DF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7BDC1B42D432BA900760DF8 /* Odoo Debug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Odoo Debug.entitlements"; sourceTree = "<group>"; };
+		E7BDC1B92D432BA900760DF8 /* Odoo Debug Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Odoo Debug Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7BDC1BE2D432BA900760DF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7BDC1C32D432BA900760DF8 /* Odoo Debug Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Odoo Debug Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7BDC1C82D432BA900760DF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7BDC1C92D432BA900760DF8 /* Odoo Debug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Odoo Debug.entitlements"; sourceTree = "<group>"; };
+		E7BDC1E92D432BA900760DF8 /* cover_large.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cover_large.png; path = "../../Downloads/odoo_debug-4.0/cover_large.png"; sourceTree = "<group>"; };
+		E7BDC1EA2D432BA900760DF8 /* on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = on.png; path = "../../Downloads/odoo_debug-4.0/on.png"; sourceTree = "<group>"; };
+		E7BDC1EB2D432BA900760DF8 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE; path = "../../Downloads/odoo_debug-4.0/LICENSE"; sourceTree = "<group>"; };
+		E7BDC1EC2D432BA900760DF8 /* off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = off.png; path = "../../Downloads/odoo_debug-4.0/off.png"; sourceTree = "<group>"; };
+		E7BDC1ED2D432BA900760DF8 /* cover_small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cover_small.png; path = "../../Downloads/odoo_debug-4.0/cover_small.png"; sourceTree = "<group>"; };
+		E7BDC1EE2D432BA900760DF8 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = "../../Downloads/odoo_debug-4.0/background.js"; sourceTree = "<group>"; };
+		E7BDC1EF2D432BA900760DF8 /* META-INF */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "META-INF"; path = "../../Downloads/odoo_debug-4.0/META-INF"; sourceTree = "<group>"; };
+		E7BDC1F02D432BA900760DF8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = "../../Downloads/odoo_debug-4.0/README.md"; sourceTree = "<group>"; };
+		E7BDC1F12D432BA900760DF8 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = "../../Downloads/odoo_debug-4.0/manifest.json"; sourceTree = "<group>"; };
+		E7BDC1F22D432BA900760DF8 /* pageScript.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = pageScript.js; path = "../../Downloads/odoo_debug-4.0/pageScript.js"; sourceTree = "<group>"; };
+		E7BDC1F32D432BA900760DF8 /* super_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = super_on.png; path = "../../Downloads/odoo_debug-4.0/super_on.png"; sourceTree = "<group>"; };
+		E7BDC1F42D432BA900760DF8 /* contentScript.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = contentScript.js; path = "../../Downloads/odoo_debug-4.0/contentScript.js"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E7BDC1972D432BA900760DF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7BDC1A92D432BA900760DF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7BDC1B62D432BA900760DF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7BDC1C02D432BA900760DF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E7BDC1862D432BA800760DF8 = {
+			isa = PBXGroup;
+			children = (
+				E7BDC18B2D432BA800760DF8 /* Shared (App) */,
+				E7BDC1942D432BA900760DF8 /* Shared (Extension) */,
+				E7BDC19C2D432BA900760DF8 /* iOS (App) */,
+				E7BDC1AD2D432BA900760DF8 /* macOS (App) */,
+				E7BDC1BD2D432BA900760DF8 /* iOS (Extension) */,
+				E7BDC1C72D432BA900760DF8 /* macOS (Extension) */,
+				E7BDC19B2D432BA900760DF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E7BDC18B2D432BA800760DF8 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				E7BDC1922D432BA800760DF8 /* ViewController.swift */,
+				E7BDC1932D432BA900760DF8 /* Assets.xcassets */,
+				E7BDC18C2D432BA800760DF8 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		E7BDC18C2D432BA800760DF8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E7BDC18D2D432BA800760DF8 /* Main.html */,
+				E7BDC18F2D432BA800760DF8 /* Icon.png */,
+				E7BDC1902D432BA800760DF8 /* Style.css */,
+				E7BDC1912D432BA800760DF8 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E7BDC1942D432BA900760DF8 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				E7BDC1E82D432BA900760DF8 /* Resources */,
+				E7BDC1952D432BA900760DF8 /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		E7BDC19B2D432BA900760DF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7BDC19A2D432BA900760DF8 /* Odoo Debug.app */,
+				E7BDC1AC2D432BA900760DF8 /* Odoo Debug.app */,
+				E7BDC1B92D432BA900760DF8 /* Odoo Debug Extension.appex */,
+				E7BDC1C32D432BA900760DF8 /* Odoo Debug Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7BDC19C2D432BA900760DF8 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				E7BDC19D2D432BA900760DF8 /* AppDelegate.swift */,
+				E7BDC19F2D432BA900760DF8 /* SceneDelegate.swift */,
+				E7BDC1A12D432BA900760DF8 /* LaunchScreen.storyboard */,
+				E7BDC1A42D432BA900760DF8 /* Main.storyboard */,
+				E7BDC1A72D432BA900760DF8 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		E7BDC1AD2D432BA900760DF8 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				E7BDC1AE2D432BA900760DF8 /* AppDelegate.swift */,
+				E7BDC1B02D432BA900760DF8 /* Main.storyboard */,
+				E7BDC1B32D432BA900760DF8 /* Info.plist */,
+				E7BDC1B42D432BA900760DF8 /* Odoo Debug.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		E7BDC1BD2D432BA900760DF8 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				E7BDC1BE2D432BA900760DF8 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		E7BDC1C72D432BA900760DF8 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				E7BDC1C82D432BA900760DF8 /* Info.plist */,
+				E7BDC1C92D432BA900760DF8 /* Odoo Debug.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		E7BDC1E82D432BA900760DF8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E7BDC1E92D432BA900760DF8 /* cover_large.png */,
+				E7BDC1EA2D432BA900760DF8 /* on.png */,
+				E7BDC1EB2D432BA900760DF8 /* LICENSE */,
+				E7BDC1EC2D432BA900760DF8 /* off.png */,
+				E7BDC1ED2D432BA900760DF8 /* cover_small.png */,
+				E7BDC1EE2D432BA900760DF8 /* background.js */,
+				E7BDC1EF2D432BA900760DF8 /* META-INF */,
+				E7BDC1F02D432BA900760DF8 /* README.md */,
+				E7BDC1F12D432BA900760DF8 /* manifest.json */,
+				E7BDC1F22D432BA900760DF8 /* pageScript.js */,
+				E7BDC1F32D432BA900760DF8 /* super_on.png */,
+				E7BDC1F42D432BA900760DF8 /* contentScript.js */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E7BDC1992D432BA900760DF8 /* Odoo Debug (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7BDC1DE2D432BA900760DF8 /* Build configuration list for PBXNativeTarget "Odoo Debug (iOS)" */;
+			buildPhases = (
+				E7BDC1962D432BA900760DF8 /* Sources */,
+				E7BDC1972D432BA900760DF8 /* Frameworks */,
+				E7BDC1982D432BA900760DF8 /* Resources */,
+				E7BDC1DD2D432BA900760DF8 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7BDC1BC2D432BA900760DF8 /* PBXTargetDependency */,
+			);
+			name = "Odoo Debug (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "Odoo Debug (iOS)";
+			productReference = E7BDC19A2D432BA900760DF8 /* Odoo Debug.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E7BDC1AB2D432BA900760DF8 /* Odoo Debug (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7BDC1E52D432BA900760DF8 /* Build configuration list for PBXNativeTarget "Odoo Debug (macOS)" */;
+			buildPhases = (
+				E7BDC1A82D432BA900760DF8 /* Sources */,
+				E7BDC1A92D432BA900760DF8 /* Frameworks */,
+				E7BDC1AA2D432BA900760DF8 /* Resources */,
+				E7BDC1E42D432BA900760DF8 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7BDC1C62D432BA900760DF8 /* PBXTargetDependency */,
+			);
+			name = "Odoo Debug (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "Odoo Debug (macOS)";
+			productReference = E7BDC1AC2D432BA900760DF8 /* Odoo Debug.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E7BDC1B82D432BA900760DF8 /* Odoo Debug Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7BDC1DA2D432BA900760DF8 /* Build configuration list for PBXNativeTarget "Odoo Debug Extension (iOS)" */;
+			buildPhases = (
+				E7BDC1B52D432BA900760DF8 /* Sources */,
+				E7BDC1B62D432BA900760DF8 /* Frameworks */,
+				E7BDC1B72D432BA900760DF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Odoo Debug Extension (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "Odoo Debug Extension (iOS)";
+			productReference = E7BDC1B92D432BA900760DF8 /* Odoo Debug Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		E7BDC1C22D432BA900760DF8 /* Odoo Debug Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7BDC1E12D432BA900760DF8 /* Build configuration list for PBXNativeTarget "Odoo Debug Extension (macOS)" */;
+			buildPhases = (
+				E7BDC1BF2D432BA900760DF8 /* Sources */,
+				E7BDC1C02D432BA900760DF8 /* Frameworks */,
+				E7BDC1C12D432BA900760DF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Odoo Debug Extension (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "Odoo Debug Extension (macOS)";
+			productReference = E7BDC1C32D432BA900760DF8 /* Odoo Debug Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E7BDC1872D432BA800760DF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					E7BDC1992D432BA900760DF8 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					E7BDC1AB2D432BA900760DF8 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					E7BDC1B82D432BA900760DF8 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					E7BDC1C22D432BA900760DF8 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = E7BDC18A2D432BA800760DF8 /* Build configuration list for PBXProject "Odoo Debug" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E7BDC1862D432BA800760DF8;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E7BDC19B2D432BA900760DF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E7BDC1992D432BA900760DF8 /* Odoo Debug (iOS) */,
+				E7BDC1AB2D432BA900760DF8 /* Odoo Debug (macOS) */,
+				E7BDC1B82D432BA900760DF8 /* Odoo Debug Extension (iOS) */,
+				E7BDC1C22D432BA900760DF8 /* Odoo Debug Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E7BDC1982D432BA900760DF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7BDC1CC2D432BA900760DF8 /* Icon.png in Resources */,
+				E7BDC1A32D432BA900760DF8 /* LaunchScreen.storyboard in Resources */,
+				E7BDC1CA2D432BA900760DF8 /* Main.html in Resources */,
+				E7BDC1D02D432BA900760DF8 /* Script.js in Resources */,
+				E7BDC1D42D432BA900760DF8 /* Assets.xcassets in Resources */,
+				E7BDC1A62D432BA900760DF8 /* Main.storyboard in Resources */,
+				E7BDC1CE2D432BA900760DF8 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7BDC1AA2D432BA900760DF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7BDC1CD2D432BA900760DF8 /* Icon.png in Resources */,
+				E7BDC1CF2D432BA900760DF8 /* Style.css in Resources */,
+				E7BDC1B22D432BA900760DF8 /* Main.storyboard in Resources */,
+				E7BDC1D12D432BA900760DF8 /* Script.js in Resources */,
+				E7BDC1D52D432BA900760DF8 /* Assets.xcassets in Resources */,
+				E7BDC1CB2D432BA900760DF8 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7BDC1B72D432BA900760DF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7BDC20A2D432BA900760DF8 /* pageScript.js in Resources */,
+				E7BDC2032D432BA900760DF8 /* LICENSE in Resources */,
+				E7BDC2052D432BA900760DF8 /* cover_small.png in Resources */,
+				E7BDC20C2D432BA900760DF8 /* contentScript.js in Resources */,
+				E7BDC2042D432BA900760DF8 /* off.png in Resources */,
+				E7BDC2072D432BA900760DF8 /* META-INF in Resources */,
+				E7BDC2092D432BA900760DF8 /* manifest.json in Resources */,
+				E7BDC2022D432BA900760DF8 /* on.png in Resources */,
+				E7BDC2062D432BA900760DF8 /* background.js in Resources */,
+				E7BDC20B2D432BA900760DF8 /* super_on.png in Resources */,
+				E7BDC2082D432BA900760DF8 /* README.md in Resources */,
+				E7BDC2012D432BA900760DF8 /* cover_large.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7BDC1C12D432BA900760DF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7BDC1FE2D432BA900760DF8 /* pageScript.js in Resources */,
+				E7BDC1F72D432BA900760DF8 /* LICENSE in Resources */,
+				E7BDC1F92D432BA900760DF8 /* cover_small.png in Resources */,
+				E7BDC2002D432BA900760DF8 /* contentScript.js in Resources */,
+				E7BDC1F82D432BA900760DF8 /* off.png in Resources */,
+				E7BDC1FB2D432BA900760DF8 /* META-INF in Resources */,
+				E7BDC1FD2D432BA900760DF8 /* manifest.json in Resources */,
+				E7BDC1F62D432BA900760DF8 /* on.png in Resources */,
+				E7BDC1FA2D432BA900760DF8 /* background.js in Resources */,
+				E7BDC1FF2D432BA900760DF8 /* super_on.png in Resources */,
+				E7BDC1FC2D432BA900760DF8 /* README.md in Resources */,
+				E7BDC1F52D432BA900760DF8 /* cover_large.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E7BDC1962D432BA900760DF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7BDC1D22D432BA900760DF8 /* ViewController.swift in Sources */,
+				E7BDC19E2D432BA900760DF8 /* AppDelegate.swift in Sources */,
+				E7BDC1A02D432BA900760DF8 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7BDC1A82D432BA900760DF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7BDC1D32D432BA900760DF8 /* ViewController.swift in Sources */,
+				E7BDC1AF2D432BA900760DF8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7BDC1B52D432BA900760DF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7BDC1D62D432BA900760DF8 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7BDC1BF2D432BA900760DF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7BDC1D72D432BA900760DF8 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E7BDC1BC2D432BA900760DF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7BDC1B82D432BA900760DF8 /* Odoo Debug Extension (iOS) */;
+			targetProxy = E7BDC1BB2D432BA900760DF8 /* PBXContainerItemProxy */;
+		};
+		E7BDC1C62D432BA900760DF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7BDC1C22D432BA900760DF8 /* Odoo Debug Extension (macOS) */;
+			targetProxy = E7BDC1C52D432BA900760DF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E7BDC18D2D432BA800760DF8 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7BDC18E2D432BA800760DF8 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		E7BDC1A12D432BA900760DF8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7BDC1A22D432BA900760DF8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E7BDC1A42D432BA900760DF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7BDC1A52D432BA900760DF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E7BDC1B02D432BA900760DF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7BDC1B12D432BA900760DF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E7BDC1D82D432BA900760DF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E7BDC1D92D432BA900760DF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		E7BDC1DB2D432BA900760DF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Odoo Debug Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Odoo-Debug.Extension";
+				PRODUCT_NAME = "Odoo Debug Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E7BDC1DC2D432BA900760DF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Odoo Debug Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Odoo-Debug.Extension";
+				PRODUCT_NAME = "Odoo Debug Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7BDC1DF2D432BA900760DF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 93C9M7982M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Odoo Debug";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Odoo-Debug1";
+				PRODUCT_NAME = "Odoo Debug";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E7BDC1E02D432BA900760DF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 93C9M7982M;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Odoo Debug";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Odoo-Debug1";
+				PRODUCT_NAME = "Odoo Debug";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7BDC1E22D432BA900760DF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Odoo Debug.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 93C9M7982M;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Odoo Debug Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.srgim.odoo.debug.Extension;
+				PRODUCT_NAME = "Odoo Debug Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E7BDC1E32D432BA900760DF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Odoo Debug.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 93C9M7982M;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Odoo Debug Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.srgim.odoo.debug.Extension;
+				PRODUCT_NAME = "Odoo Debug Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		E7BDC1E62D432BA900760DF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Odoo Debug.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 93C9M7982M;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Odoo Debug";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.srgim.odoo.debug;
+				PRODUCT_NAME = "Odoo Debug";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E7BDC1E72D432BA900760DF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Odoo Debug.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 93C9M7982M;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Odoo Debug";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.srgim.odoo.debug;
+				PRODUCT_NAME = "Odoo Debug";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7BDC18A2D432BA800760DF8 /* Build configuration list for PBXProject "Odoo Debug" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7BDC1D82D432BA900760DF8 /* Debug */,
+				E7BDC1D92D432BA900760DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7BDC1DA2D432BA900760DF8 /* Build configuration list for PBXNativeTarget "Odoo Debug Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7BDC1DB2D432BA900760DF8 /* Debug */,
+				E7BDC1DC2D432BA900760DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7BDC1DE2D432BA900760DF8 /* Build configuration list for PBXNativeTarget "Odoo Debug (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7BDC1DF2D432BA900760DF8 /* Debug */,
+				E7BDC1E02D432BA900760DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7BDC1E12D432BA900760DF8 /* Build configuration list for PBXNativeTarget "Odoo Debug Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7BDC1E22D432BA900760DF8 /* Debug */,
+				E7BDC1E32D432BA900760DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7BDC1E52D432BA900760DF8 /* Build configuration list for PBXNativeTarget "Odoo Debug (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7BDC1E62D432BA900760DF8 /* Debug */,
+				E7BDC1E72D432BA900760DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7BDC1872D432BA800760DF8 /* Project object */;
+}
