@@ -1,4 +1,4 @@
-This app is a port of the popeular Odoo Debug for Odoo Developers.
+This app is a port of the popular Odoo Debug for Odoo Developers.
 
 Install to simplify entering Developer mode.
 Ported from the Firefox addon, here: https://github.com/Droggol/OdooDebug
